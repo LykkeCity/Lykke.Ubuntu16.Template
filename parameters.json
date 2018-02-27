@@ -1,0 +1,60 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "virtualMachineName": {
+            "value": "testvm"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_F1s"
+        },
+        "adminUsername": {
+            "value": "giorgi"
+        },
+        "virtualNetworkName": {
+            "value": "TestGroup-vnet"
+        },
+        "networkInterfaceName": {
+            "value": "testvm444"
+        },
+        "diskSizeGB": {
+            "value": "30"
+        },
+        "networkSecurityGroupName": {
+            "value": "testvm-nsg"
+        },
+        "adminPassword": {
+            "value": $password
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "testgroupdiag523"
+        },
+        "diagnosticsStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "Microsoft.Storage/storageAccounts/testgroupdiag523"
+        },
+        "addressPrefix": {
+            "value": "172.16.2.0/24"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "subnetPrefix": {
+            "value": "172.16.2.0/24"
+        },
+        "publicIpAddressName": {
+            "value": "testvm-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        }
+    }
+}
