@@ -6,7 +6,7 @@
             "value": "westeurope"
         },
         "virtualMachineName": {
-            "value": "testvm"
+            "value": "testvm4"
         },
         "virtualMachineSize": {
             "value": "Standard_F1s"
@@ -27,7 +27,7 @@
             "value": "testvm-nsg"
         },
         "adminPassword": {
-            "value": $password
+            "value": "$password"
         },
         "diagnosticsStorageAccountName": {
             "value": "testgroupdiag523"
